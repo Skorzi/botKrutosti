@@ -1,0 +1,21 @@
+$heightofinv: 60px;
+$buttontg: var(--tg-theme-button-color);
+
+
+.inventory {
+    width: 100%;
+    height: $heightofinv;
+    position: fixed;
+    bottom: -60px;
+    background-color: rgba(black, 0.5);
+    color: var(--tg-theme-text-color);
+    display: flex;
+    align-items: center;
+
+    &._active {
+        bottom: 0px;
+    }
+
+    transition: bottom 0.7s;
+}
+

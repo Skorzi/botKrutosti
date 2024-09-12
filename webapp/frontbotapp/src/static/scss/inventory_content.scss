@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+.inventory__count {
+    display: flex;
+    justify-content: space-between;
+    width: 23vw;
+    margin-right: 10vw;
+}
+
+.inventory__content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+
+    &._active {
+        
+    }
+}
+
+.inventory__header {
+    margin-left: 10vw;
+    font-family: 'Amatic SC', cursive;
+    font-size: 32px;
+    position: relative;
+
+}
+
+//появление красивое, когда менюшку открываешь + гифки за хеадером
+.count__krut {
+    display: flex;
+}
+
+.krut__num, .shit__num {
+    font-family: 'Amatic SC', cursive;
+    font-size: 36px;
+}
+
+.krut__num {
+    margin-left: 4px;
+}
+
+
+.count__shit{
+    display: flex;
+}
+
+.shit__num {
+    margin-left: 4px;
+}
+
+.shit__img_container, .krut__img_container {
+    text-align: center;
+    width: 20px;
+    height: 100%;
+    position: relative;
+
+    img{
+        position: absolute;
+        object-fit: contain;
+        height: 100%;
+        width: 100%;
+        bottom: -10%;
+        left: 0;
+
+    }
+}
+

@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1085774b.css",
+    "main.js": "/static/js/main.29a0ed37.js",
+    "static/media/like.png": "/static/media/like.3da7f99a48cba2b7f26a.png",
+    "static/media/govno.png": "/static/media/govno.608b7b0ca7f0c0503928.png",
+    "static/media/UnSmileGif.gif": "/static/media/UnSmileGif.228cf58c9ff43e5ba3f9.gif",
+    "static/media/smileGif.gif": "/static/media/smileGif.cd70710606499816552a.gif",
+    "index.html": "/index.html",
+    "main.1085774b.css.map": "/static/css/main.1085774b.css.map",
+    "main.29a0ed37.js.map": "/static/js/main.29a0ed37.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1085774b.css",
+    "static/js/main.29a0ed37.js"
+  ]
+}

@@ -1,0 +1,66 @@
+.grade_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.descrip_reason, .reason_input {
+  border: 5px solid black;
+  border-radius: 7px;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+}
+
+.reason_input {
+  /* для реакт */
+  /* width: 80%; */
+  /* height: 30px; */
+
+  /* для джанго */
+  height: 50px;
+  width: 89%;
+  padding: 5px 15px;
+}
+
+.descrip_reason {
+  margin-top: 10px;
+  width: 89%;
+  height: 145px;
+  padding: 5px 15px;
+}
+
+.form__btns {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.form__btn_ok, .form__btn_cancel {
+  width: 160px;
+  height: 50px;
+  border: 5px solid black;
+  border-radius: 10px;
+  color: white;
+  font-size: 32px;
+  font-family: 'Amatic SC', cursive;
+}
+
+.form__btn_ok {
+  background-color: green;
+}
+
+.form__btn_cancel {
+  background-color: red;
+}

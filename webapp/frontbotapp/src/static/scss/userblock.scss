@@ -1,0 +1,43 @@
+.main__block_user {
+    max-width: 350px;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.user__avatar {
+    width: 83%;
+    height: 300px;
+    border-radius: 35px;
+    border: 3px solid black;
+
+}
+
+.avatar_img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 32px;
+}
+
+.user__username {
+    // margin: 0 auto;
+    text-decoration: underline;
+    margin-top: 15px;
+    font-size: 36px;
+    font-family: 'Amatic SC', cursive;
+
+}
+
+.user__grade {
+    width: 95%;
+}
+
+.grade__btns {
+    width: 88%;
+    text-align: center;
+    margin: 22px auto;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+.inventory__count {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 23vw;
+  margin-right: 10vw;
+}
+
+.inventory__content {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.inventory__header {
+  margin-left: 10vw;
+  font-family: 'Amatic SC', cursive;
+  font-size: 32px;
+  position: relative;
+}
+
+.count__krut {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.krut__num, .shit__num {
+  font-family: 'Amatic SC', cursive;
+  font-size: 36px;
+}
+
+.krut__num {
+  margin-left: 4px;
+}
+
+.count__shit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.shit__num {
+  margin-left: 4px;
+}
+
+.shit__img_container, .krut__img_container {
+  text-align: center;
+  width: 20px;
+  height: 100%;
+  position: relative;
+}
+
+.shit__img_container img, .krut__img_container img {
+  position: absolute;
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 100%;
+  width: 100%;
+  bottom: -10%;
+  left: 0;
+}

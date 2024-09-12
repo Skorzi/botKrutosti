@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+
+
+.button_like {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    border: 5px solid black;
+    color: black;
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+
+}
+
+.button_like img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    filter: brightness(0%);
+}

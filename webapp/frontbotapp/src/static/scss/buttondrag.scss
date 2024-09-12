@@ -1,0 +1,48 @@
+//button
+$heightofinv: 65px;
+
+.button_drag {
+    width: 40px;
+    height: 15px;
+    // background-color: orange;
+    position: fixed;
+    bottom: 5px;
+    left: 49%;
+    cursor: pointer;
+    user-select: none;
+
+    &._active{
+        bottom: $heightofinv;
+        .button_drag_brg1{
+            width: 100%;
+        }
+        .button_drag_brg3{
+            width: 40%;
+        }
+    }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.7s;
+}
+
+.button_drag_brg1, .button_drag_brg2, .button_drag_brg3{
+    height: 22%;
+    background-color: white;
+    border-radius: 10px;
+    opacity: 0.1;
+    transition: 0.7s;
+}
+
+
+.button_drag_brg1 {
+    width: 40%;
+}
+
+.button_drag_brg2 {
+    width: 70%;
+}
+.button_drag_brg3 {
+    width: 100%;
+}
